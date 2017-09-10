@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 This fantastic view changes its color gradually makes your app look fantastic!
                        DESC
  
-  s.homepage         = 'https://github.com/<YOUR GITHUB USERNAME>/FantasticView'
+  s.homepage         = 'https://github.com/imanoupetit/FantasticView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '<YOUR NAME HERE>' => '<YOUR EMAIL HERE>' }
-  s.source           = { :git => 'https://github.com/<YOUR GITHUB USERNAME>/FantasticView.git', :tag => s.version.to_s }
+  s.author           = { 'Imanou Petit' => 'imanoupetit@yahoo.fr' }
+  s.source           = { :git => 'https://github.com/imanoupetit/FantasticView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
   s.source_files = 'FantasticView/FantasticView.swift'
